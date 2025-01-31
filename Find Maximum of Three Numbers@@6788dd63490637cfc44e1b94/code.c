@@ -7,10 +7,10 @@ char* welcome() {
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if(a>b and a>c){
+    if(a>=b and a>=c){
         return a;
     }
-    elseif(b>a && b>c){
+    elseif(b>=a && b>=c){
         return b;
     }
     else{
