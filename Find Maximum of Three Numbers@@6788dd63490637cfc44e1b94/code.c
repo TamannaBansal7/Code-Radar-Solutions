@@ -7,7 +7,14 @@ char* welcome() {
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    maximum=max(a,b,c);
-    printf("%d",maximum);
+    if(a>b && a>c){
+        return a;
+    }
+    else if(b>a && b>c){
+        return b;
+    }
+    else{
+        return c;
+    }
     return 0;
 }
