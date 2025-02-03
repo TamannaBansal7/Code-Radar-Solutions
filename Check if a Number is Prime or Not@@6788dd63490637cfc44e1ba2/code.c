@@ -5,13 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    int a;
-    scanf("%d",&a);
-    if(a>1 && a%a==0){
-        printf("Prime");
-    }
-    else{
-        printf("Not Prime");
-    }
-    return 0;
-}
+   int a;
+   scanf("%d",&a);
+   if(isPrime(a)){
+    printf("Prime");
+   }
+   else{
+    printf("Not Prime");
+   }
