@@ -11,13 +11,13 @@ int main() {
     if(c=='+'){
         printf("%d",a+b);
     }
-    elif(c=='-'){
+    else if(c=='-'){
         printf("%d",a-b);
     }
-    elif(c=='*'){
+    else if(c=='*'){
         printf("%d",a*b);
     }
-    elif(c=='/'){
+    else if(c=='/'){
         if(b!=0){
             printf("%d",a/b);
         }
