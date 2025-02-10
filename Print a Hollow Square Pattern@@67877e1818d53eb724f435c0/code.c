@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<=n;j++){
-            if(j==1 || j==n || j==1 || j==n){
+            if(i==1 || i==n || j==1 || j==n){
                 printf("*");
             }
             else{
