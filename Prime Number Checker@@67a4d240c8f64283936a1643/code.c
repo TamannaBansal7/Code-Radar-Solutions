@@ -3,7 +3,7 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
+isPrime(int n);
 int main() {
     int n,fact_count;
     printf("Input a positive number:");
