@@ -5,24 +5,22 @@ char* welcome() {
 }
 
 int main() {
-    int n,i,j;
-    scanf("%d",&n);
+   int n,i,j;
+   scanf("%d",&n);
+   for(i=0;i<n;i++){
+    printf("*");
+   }
+   printf("\n ");
+   for(i=0;i<n-2;i++){
+    for(j=0;j<n-2;j++){
+        printf(" ");
+    }
+    printf("*\n");
+   }
+   if(n>1){
     for(i=0;i<n;i++){
         printf("*");
     }
-    printf("\n");
-    for(i=0;i<n-2;i++){
-        printf("*");
-        for(j=0;j<n-2;j++){
-            printf(" ");
-        }
-        printf("*\n");
-    }
-    if(n>1){
-        for(i=0;i<n;i++){
-            printf("*");
-        }
-        printf("\n");
-    }
+   }
     return 0;
 }
