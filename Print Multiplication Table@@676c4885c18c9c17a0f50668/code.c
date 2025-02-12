@@ -6,7 +6,7 @@ int main(){
     result=0;
     for(i=1;i<=10;i++){
         result=n*i;
-        printf(%d*%d=%d,n,i,result);
+        printf(%d*%d=%d\n,n,i,result);
     }
     return 0;
 }
