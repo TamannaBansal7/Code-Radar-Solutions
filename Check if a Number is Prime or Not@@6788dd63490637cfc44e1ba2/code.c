@@ -5,20 +5,23 @@ char* welcome() {
 }
 
 int main() {
-   int a,i;
-   scanf("%d",&a);
-   if(a<2){
+  int a,i,j=0;
+  scanf("%d",&a);
+  if(a<2){
     printf("Not Prime");
-   }
-   elif{
-    for(i=2;i*i<=a;i++){
+  }
+  else{
+    for(i=1;i<=a;i++){
         if(a%i==0){
+            j++;
+        }
+        if(j>2){
             printf("Not Prime");
         }
-    }
-   }
         else{
             printf("Prime");
         }
+    }
+  }
     }
    
