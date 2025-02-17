@@ -1,8 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a,b,n;
+    int a,n,result;
     scanf("%d %d",&a,&b);
-    n=a&b;
-    printf("%d",&n);
+    result=(a>>n)&1;
+    printf("%d",result);
 }
