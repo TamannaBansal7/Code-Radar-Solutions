@@ -15,13 +15,13 @@ int main() {
         if(a%i==0){
             j++;
         }
+    }
         if(j>2){
             printf("Not Prime");
         }
         else{
             printf("Prime");
         }
-    }
   }
     }
    
