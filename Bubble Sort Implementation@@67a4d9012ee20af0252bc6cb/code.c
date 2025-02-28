@@ -1,4 +1,5 @@
 #include<stdio.h>
+int main{
 def bubble_sort(arr):
   n = len(arr)
   for i in range(n):
@@ -18,4 +19,4 @@ def bubble_sort(arr):
 # Example usage
 my_list = [64, 34, 25, 12, 22, 11, 90]
 sorted_list = bubble_sort(my_list)
-print("%d", sorted_list)
+print("%d", sorted_list)}
