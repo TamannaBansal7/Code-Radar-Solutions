@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-int n;
+int n,temp,j;
 scanf("%d",&n);
 int arr[n];
-for(i=0;i<n;i++){
+for(int i=0;i<n;i++){
     scanf("%d",&arr[n]);
 }
 arr[i]=temp;
