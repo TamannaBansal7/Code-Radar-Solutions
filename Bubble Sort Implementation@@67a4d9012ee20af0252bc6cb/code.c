@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main{
+int main(){
 def bubble_sort(arr):
   n = len(arr)
   for i in range(n):
