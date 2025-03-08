@@ -10,6 +10,6 @@ int main(){
             printf("%c",ch);
             ch++;
         }
-        priintf("\n");
+        printf("\n");
     }
 }
