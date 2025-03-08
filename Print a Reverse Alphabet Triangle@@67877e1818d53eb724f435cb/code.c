@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         ch='Z';
-        for(int j=n;j>=i;j++){
+        for(int j=1;j<=;j++){
             printf("%c",ch);
             ch++;
         }
