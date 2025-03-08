@@ -10,9 +10,9 @@ int main(){
         for(int k=i;k>=1;k--){
             printf("%d",k);
         }
-        //for(int k=2;k<=i;k++){
-          //  printf("%d",k);
-        //}
+        for(int k=2;k<=i;k++){
+            printf("%d",k);
+        }
         printf("\n");
     }
 }
