@@ -11,7 +11,7 @@ int sort(int n,int arr[]){
     }
    } 
 }
-int printArray(int n;int arr[]){
+int printArray(n,arr[]){
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
