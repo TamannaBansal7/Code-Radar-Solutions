@@ -8,11 +8,10 @@ int sort(int n,int arr[]){
         arr[j]=arr[j+1];
         arr[j+1]=temp;
         }
+        printf("%d",arr[i]);
     }
    } 
 }
-int printArray(int n,int arr[]){
-    for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+int printArray(){
+    int sort(int n,int arr[]);
     }
-}
