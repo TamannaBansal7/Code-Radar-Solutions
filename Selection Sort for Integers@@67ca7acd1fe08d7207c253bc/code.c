@@ -7,11 +7,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
-    selectionSort(int n,int arr[]);
+    selectionSort(arr,n);
     printArray(arr,n);
     return 0;
 }
-selectionSort(int n;int arr[]){
+selectionSort(int n,int arr[]){
     for(int i=0;i<n;i++){
         for(j=0;j<n;j++){
             int temp=arr[j];
