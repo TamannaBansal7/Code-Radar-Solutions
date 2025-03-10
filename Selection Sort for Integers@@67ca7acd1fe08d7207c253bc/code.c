@@ -1,6 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int sort(int n,int arr[]){
+    scanf("%d",&n);
    for(int i=0;i<n;i++){
     for(int j=0;j=n-i;j++){
         if(arr[j]>arr[j+1]){
@@ -13,5 +14,5 @@ int sort(int n,int arr[]){
    } 
 }
 int printArray(){
-    int sort(int n,int arr[]);
+    sort();
     }
