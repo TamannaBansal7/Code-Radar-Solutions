@@ -11,7 +11,7 @@ int main(){
     printArray(arr,n);
     return 0;
 }
-selectionSort(int n,int arr[]){
+selectionSort(n,arr[]){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             int temp=arr[j];
