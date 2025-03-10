@@ -14,5 +14,5 @@ int sort(int n,int arr[]){
    } 
 }
 int printArray(){
-    sort();
+    sort(int n;int arr[]);
     }
