@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
-    selectionSort(arr,n);
+    selectionSort(int n,int arr[]);
     printArray(arr,n);
     return 0;
 }
