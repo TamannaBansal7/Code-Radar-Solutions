@@ -5,6 +5,6 @@ int main(){
     scanf("%s",&a[100]);
     int k=len(a);
     for(int i=1;i<=k;i++){
-        printf("")
+        printf("");
     }
 }
