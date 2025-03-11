@@ -1,4 +1,4 @@
-// Your code here...#include <stdio.h>
+#include <stdio.h>
 
 struct Student {
     int roll;
@@ -25,5 +25,5 @@ int main() {
     // Output average marks rounded to two decimal places
     printf("Average Marks: %.2f\n", average_marks);
     
-    return 0;
+    return 0;
 }
