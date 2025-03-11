@@ -3,7 +3,8 @@
 int main(){
     char a[100];
     scanf("%s",&a[100]);
-    for(int i=1;i<=len(a);i++){
+    int k=len(a);
+    for(int i=1;i<=k;i++){
         printf("")
     }
 }
