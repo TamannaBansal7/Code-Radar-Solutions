@@ -4,7 +4,7 @@
 int main(){
     char a[100];
     scanf("%s",&a);
-    char reverse=str.strrev(a);
+    char reverse=str.strrev[a];
     printf("%s",reverse);
     
 }
