@@ -3,7 +3,7 @@
 int main(){
     char a[100];
     scanf("%s",&a[100]);
-    char reverse=strrev(a[100]);
+    char reverse=strrev(a);
     printf("%s",reverse);
     
 }
