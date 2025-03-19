@@ -20,7 +20,7 @@ int printArray(int arr[],int n) {
     // Read the number of elements
     scanf("%d", &n);
 
-    int arr[n];
+    
 
     // Read the elements of the array
     for (i = 0; i < n; i++) {
