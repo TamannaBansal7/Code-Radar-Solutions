@@ -14,7 +14,7 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-int main() {
+int printArray(int arr[],int n) {
     int n, i;
 
     // Read the number of elements
