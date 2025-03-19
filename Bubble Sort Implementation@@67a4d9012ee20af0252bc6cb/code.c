@@ -15,7 +15,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 int printArray(int arr[],int n) {
-    int n, i;
+    int i;
 
     // Read the number of elements
     scanf("%d", &n);
