@@ -17,7 +17,11 @@ int printArray(int arr[],int n){
         scanf("%d",&arr[n]);
     }
 
-    bubbleSort(arr[],n);
+    bubbleSort(arr,n);
 
     printf("%d",arr[n]);
 }
+
+
+
+
