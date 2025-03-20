@@ -20,6 +20,8 @@ int printArray(int arr[],int n){
     bubbleSort(arr,n);
 
     printf("%d",arr[n]);
+
+    printf("\n");
 }
 
 
