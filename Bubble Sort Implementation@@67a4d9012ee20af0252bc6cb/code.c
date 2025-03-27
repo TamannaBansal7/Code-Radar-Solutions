@@ -30,7 +30,3 @@ int printArray() { // Removed n parameter
     return 0;
 }
 
-int main() {
-    printArray();
-    return 0;
-}
