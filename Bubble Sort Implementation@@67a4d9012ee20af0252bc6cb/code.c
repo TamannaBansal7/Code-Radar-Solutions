@@ -13,7 +13,7 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-int main() {
+int printArray() {
     int n;
     scanf("%d", &n);
 
