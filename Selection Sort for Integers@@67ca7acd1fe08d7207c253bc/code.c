@@ -1,22 +1,42 @@
-// Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+#include <limits.h>
+
+int main()
+{
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int arr[100];
     for(int i=0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
-    selectionSort(arr,n);
-    printArray(arr,n);
-    return 0;
-}
-selectionSort(n,arr[]){
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            int temp=arr[j];
-            arr[j]=arr[j+1];
-            arr[j+1]=temp;
+        printf("%d ",arr[i]);
+    }
+
+
+
+    for(int i=0;i<n-1;i++){
+        int min=INT_MAX;
+        int minidx=-1;
+        for(int j=i;j<=n-1;j++){
+            if(min>arr[j]){
+                min=arr[j];
+                minidx=j;
+
+            }
         }
+
+    int temp=arr[minidx];
+    arr[minidx]=arr[i];
+    arr[i]=temp;
+
+
     }
+    printf("\n");
+     for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+
+
+    return 0;
 }
