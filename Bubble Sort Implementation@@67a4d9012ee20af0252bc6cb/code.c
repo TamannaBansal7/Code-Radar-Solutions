@@ -28,3 +28,8 @@ int printArray(){
     return 0;
     
 }
+
+int main(){
+    printArray();
+    return 0;
+}
