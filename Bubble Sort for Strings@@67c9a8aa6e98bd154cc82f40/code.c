@@ -13,7 +13,7 @@ void bubbleSort(char arr[][100],int n){
     for(int i=0;i<n;i++){
         int min_idx=i;
         for(int j=0;j<n;j++){
-            if(strcmp(arr[j],arr[j+1])<0){
+            if(strcmp(arr[j+1],arr[j])<0){
                 min_idx=j;
             }
         }
