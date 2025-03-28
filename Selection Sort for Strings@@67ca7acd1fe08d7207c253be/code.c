@@ -8,11 +8,12 @@ void selsectionSort(int n,char arr[n]){
             }
         }
     }
-    int min_idx;
     if(arr[min_idx]==arr[j]){
             int temp=arr[min_idx];
             arr[min_idx]=arr[i];
             arr[i]=temp;
+    
+    
     }
 }
 
