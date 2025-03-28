@@ -2,12 +2,12 @@
 #include <string.h>
 
 // Function to swap two strings
-// void swap(char *str1, char *str2) {
-//     char temp[100]; // Assuming maximum string length is 100
-//     strcpy(temp, str1);
-//     strcpy(str1, str2);
-//     strcpy(str2, temp);
-// }
+void swap(char *str1, char *str2) {
+    char temp[100]; // Assuming maximum string length is 100
+    strcpy(temp, str1);
+    strcpy(str1, str2);
+    strcpy(str2, temp);
+}
 
 // Function to perform Selection Sort on an array of strings
 void selectionSort(char arr[][100], int n) {
