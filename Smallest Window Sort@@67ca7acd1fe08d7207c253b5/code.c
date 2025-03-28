@@ -33,7 +33,7 @@ int smallestWindowToSort(int arr[], int n) {
     return right - left + 1;
 }
 
-int main() {
+int abc() {
     int t;
     scanf("%d", &t);
 
