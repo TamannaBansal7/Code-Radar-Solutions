@@ -1,8 +1,8 @@
 // Your code here...
-void selsectionSort(char arr[n][],int n){
-    for(i=0;i<n-1;i++){
+void selsectionSort(int n,char arr[n][]){
+    for(int i=0;i<n-1;i++){
         min_idx=i;
-        for(j=i;j<=n;j++){
+        for(int j=i;j<=n;j++){
             if(arr[j]<arr[min_idx]){
                 min_idx=j;
             }
@@ -16,7 +16,7 @@ void selsectionSort(char arr[n][],int n){
     }
 }
 
-void printArray(char arr[n][],int n){
+void printArray(int n,char arr[n][]){
     selectionSort(arr,n);
     for(int i=0;i<n;j++){
         printf("%s",arr[n][i]);
