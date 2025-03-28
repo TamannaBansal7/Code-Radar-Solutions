@@ -15,9 +15,10 @@ void bubbleSort(char arr[][100],int n){
         for(int j=0;j<n-i-1;j++){
             if(strcmp(arr[j+1],arr[j])<0){
                 min_idx=j;
+                swap(arr[j+1],arr[min_idx]);
             }
         }
-        swap(arr[j+1],arr[min_idx]);
+        
     }
 }
 
