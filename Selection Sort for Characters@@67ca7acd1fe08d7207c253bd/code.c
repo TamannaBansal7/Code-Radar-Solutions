@@ -1,26 +1,23 @@
-// Your code here...
-#include<stdio.h>
-#include<limits.h>
-void selectionSort(int arr[],int n){
-    for(int i=0;i<n-1;i++){
-        int min=CHAR_MAX;
-        int minidx=-1;
-        for(int j=i;j<=n-1;j++){
-            if(min>arr[j]){
-                min=arr[j];
-                minidx=j;
+void selectionSort(char arr[], int n) {
+    int i, j, min_idx;
+    for (i = 0; i < n - 1; i++) {
+        min_idx = i;
+        for (j = i + 1; j < n; j++) {
+            if (arr[j] < arr[min_idx]) {
+                min_idx = j;
             }
         }
-        int temp=arr[minidx];
-        arr[minidx]=arr[i];
-        arr[i]=temp;
+        if (min_idx != i) {
+            char temp = arr[i];
+            arr[i] = arr[min_idx];
+            arr[min_idx] = temp;
+        }
     }
-
 }
 
-void printArray(char arr[],int n){
+void printArray(int arr[],int n){
     selectionSort(arr,n);
     for(int i=0;i<n;i++){
-        printf("%c ",arr[i]);
+        printf("%d"arr[i]);
     }
 }
