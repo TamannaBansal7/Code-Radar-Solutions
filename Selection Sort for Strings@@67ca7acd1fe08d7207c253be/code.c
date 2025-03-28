@@ -1,7 +1,7 @@
 // Your code here...
 void selsectionSort(int n,char arr[n]){
     for(int i=0;i<n-1;i++){
-        min_idx=i;
+        int min_idx=i;
         for(int j=i;j<=n;j++){
             if(arr[j]<arr[min_idx]){
                 min_idx=j;
