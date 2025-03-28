@@ -7,9 +7,10 @@ int findUnsortedSubarray(int arr[],int n){
             if(arr[i]<max){
                 right=i;
         }
+        
     }
 
-    for(int i=n-1;i>0;i++){
+    for(int i=n-2;i>=0;i--){
         if(arr[i]>min){
             left=i;
         }
