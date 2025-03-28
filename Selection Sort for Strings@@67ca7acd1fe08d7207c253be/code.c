@@ -1,3 +1,7 @@
+#include<stdio.h>
+#include<string.h>
+
+
 void swap(char *str1,char*str2){
     char temp[100];
     strcpy(temp,str1);
