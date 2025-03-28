@@ -11,13 +11,13 @@ void swap(char *str1,char *str2){
 
 void bubbleSort(char arr[][100],int n){
     for(int i=0;i<n;i++){
-       // int min_idx=i;
+        int min_idx=-1;
         for(int j=0;j<n-i-1;j++){
             if(strcmp(arr[j+1],arr[j])<0){
-                j+1=j;
+                min_idx=j;
             }
         }
-        swap(arr[j+1],arr[j]);
+        swap(arr[j+1],arr[min_idx]);
     }
 }
 
