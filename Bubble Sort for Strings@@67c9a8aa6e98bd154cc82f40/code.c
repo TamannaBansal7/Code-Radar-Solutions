@@ -9,7 +9,6 @@ void bubbleSort(char arr[][100],int n){
                 strcpy(temp,arr[j]);
                 strcpy(arr[j],arr[j+1]);
                 strcpy(arr[j+1],temp);
-                arr[j+1]=temp;
             }
         }
     }
