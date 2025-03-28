@@ -5,7 +5,8 @@ void bubbleSort(char arr[][100],int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(strcmp(arr[j],arr[j+1])<0){
-                char temp[100]=arr[j];
+                char temp[100]
+                temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
             }
