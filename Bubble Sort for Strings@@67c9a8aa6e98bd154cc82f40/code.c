@@ -12,7 +12,7 @@ void swap(char *str1,char *str2){
 void bubbleSort(char arr[][100],int n){
     for(int i=0;i<n;i++){
         int min_idx=i;
-        for(int j=0;j<n;j++){
+        for(int j=0;j<n-i-1;j++){
             if(strcmp(arr[j+1],arr[j])<0){
                 min_idx=j;
             }
