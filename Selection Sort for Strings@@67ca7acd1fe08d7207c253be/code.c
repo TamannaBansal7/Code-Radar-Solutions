@@ -19,7 +19,7 @@ void selsectionSort(int n,char arr[n]){
 
 void printArray(int n,char arr[n]){
     selectionSort(arr,n);
-    for(int i=0;i<n;j++){
+    for(int i=0;i<n;i++){
         printf("%s",arr[n][i]);
     }
 }
