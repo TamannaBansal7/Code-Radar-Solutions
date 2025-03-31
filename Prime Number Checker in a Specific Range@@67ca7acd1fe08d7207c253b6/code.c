@@ -3,11 +3,11 @@ void  printPrimesInRange(int a,int b){
     //int count=0;
     for(int num=a;num<=b;num++){
         if(num<=1){
-            continue;
+            printf("No Prime Numbers");
         }
         if (num == 2) { // 2 is a special case
             printf("%d ", num);
-            continue;
+            printf("No Prime Numbers");
         }
         int isPrime = 1; 
         for(int i=2;i<num;i++){
