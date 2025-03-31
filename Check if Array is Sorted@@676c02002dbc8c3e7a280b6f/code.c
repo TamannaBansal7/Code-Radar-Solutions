@@ -16,7 +16,7 @@ int main(){
         else{
             result=false;
         }
-        return result;
+       // return result;
     }
     if(result==true){
         printf("Sorted");
