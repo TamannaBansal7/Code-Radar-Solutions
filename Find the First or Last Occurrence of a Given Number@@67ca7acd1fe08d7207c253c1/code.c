@@ -4,14 +4,14 @@ int findOccurrence(int arr[],int n,int target,int mode){
     int right=n-1;
     int result=-1;
     while(left<=right){
-        int mid=left+(right=left)/2;
+        int mid=left+(right-left)/2;
         if(arr[mid]==target){
-            return mid;
+            result= mid;
             if(mode=='F'){
                 right=mid-1;
             }
             else{
-                left=left+1;
+                left=mid+1;
             }
         }
         else if(arr[mid]<target){
