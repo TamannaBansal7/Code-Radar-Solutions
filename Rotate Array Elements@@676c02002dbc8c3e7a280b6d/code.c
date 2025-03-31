@@ -9,7 +9,7 @@ void reversearray(int arr[],int start,int end){
     }
 }
 
-void rotatearray(int arr[]int n,int k){
+void rotatearray(int arr[],int n,int k){
     k=k%n;
     if(k<0){
         k=k+n;
