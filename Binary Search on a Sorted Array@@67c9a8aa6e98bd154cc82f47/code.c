@@ -8,10 +8,10 @@ int binarySearch(int arr[],int n,int target){
             return mid;
         }
         if(arr[mid]>target){
-            right=right-1;
+            right=mid-1;
         }
         if(arr[mid]<target){
-            left=left+1;
+            left=mid+1;
         }
     }
     return -1;
