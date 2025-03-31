@@ -1,6 +1,6 @@
 // Your code here...
 void  printPrimesInRange(int a,int b){
-    int count=0;
+    //int count=0;
     for(int num=a;num<=b;num++){
         if(num<=1){
             continue;
@@ -9,12 +9,13 @@ void  printPrimesInRange(int a,int b){
             printf("%d ", num);
             continue;
         }
-        //int isPrime = 1; 
+        int isPrime = 1; 
         for(int i=2;i<num;i++){
             if(num%i==0){
-                count++;
+                isPrime=0;
+                break;
             }
-            if(count==2){
+            if(isPrime){
                 printf("%d",num);
             }
         }
