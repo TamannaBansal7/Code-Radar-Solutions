@@ -15,11 +15,11 @@ void  printPrimesInRange(int a,int b){
                 isPrime=0;
                 break;
             }
-            if(isPrime){
+            
+        }
+        if(isPrime){
                 printf("%d",num);
             }
-        }
-        
         
     }
 }
