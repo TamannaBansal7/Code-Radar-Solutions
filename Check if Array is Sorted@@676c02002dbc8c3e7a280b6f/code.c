@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include<bool.h>
 int main(){
     int n;
     scanf("%d",&n);
