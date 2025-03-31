@@ -17,10 +17,10 @@ void  printPrimesInRange(int a,int b){
             }
             
         }
-        if(isPrime==1){
+        if(isPrime){
                 printf("%d ",num);
             }
-        if(isPrime==0){
+        if(!isPrime){
         printf("No Prime Numbers");
         break;
     }
