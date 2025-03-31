@@ -5,6 +5,7 @@ void reversearray(int arr[],int start,int end){
         int temp=arr[start];
         arr[start]=arr[end];
         arr[end]=temp;
+        start++;
         end--;
     }
 }
@@ -38,6 +39,5 @@ int main() {
     }
     printf("\n");
 
-    free(arr);
     return 0;
 }
