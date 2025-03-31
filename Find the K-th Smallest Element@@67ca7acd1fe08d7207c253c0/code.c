@@ -1,4 +1,4 @@
-void kthSmallest(int arr[],int n, int k){
+int kthSmallest(int arr[],int n, int k){
     if(k<1 || k>n){
         return -1;
     }
@@ -7,7 +7,7 @@ void kthSmallest(int arr[],int n, int k){
             if(arr[j]>arr[j+1]){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
-                arr[j+1]temp;
+                arr[j+1]=temp;
             }
         }
     }
