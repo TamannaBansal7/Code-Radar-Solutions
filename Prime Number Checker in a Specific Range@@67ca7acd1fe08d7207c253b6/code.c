@@ -20,11 +20,12 @@ void  printPrimesInRange(int a,int b){
         if(isPrime){
                 printf("%d ",num);
             }
-        
+        if(isPrime==0){
+        printf("No Prime Numbers");
+        break;
+    }
         
     }
 
-    if(isPrime==0){
-        printf("No Prime Numbers");
-    }
+    
 }
