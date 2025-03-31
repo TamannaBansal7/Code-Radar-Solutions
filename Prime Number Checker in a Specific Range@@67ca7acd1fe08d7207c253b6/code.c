@@ -21,11 +21,12 @@ void  printPrimesInRange(int a,int b){
                 printf("%d ",num);
                 int primeFound=1;
             }
-        
-    }
-    if(!primeFound){
+        if(!primeFound){
         printf("No Prime Numbers");
+        break;
     }
+    }
+    
         
     }
 
