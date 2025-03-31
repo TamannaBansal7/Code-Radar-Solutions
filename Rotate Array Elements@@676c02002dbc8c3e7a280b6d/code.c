@@ -22,7 +22,7 @@ void rotatearray(int arr[],int n,int k){
 
 int main() {
     int n, k;
-
+    int arr[];
     scanf("%d", &n);
 
     for (int i = 0; i < n; i++) {
