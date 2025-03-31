@@ -3,9 +3,10 @@ void insertionSort(char arr[][100],int n){
     for(int i=1;i<n;i++){
         int j=i;
         while(j>=1 && arr[j]<arr[j-1]){
-            char temp[100]=arr[j-1];
+            char temp[100]=ai;
+            ai=arr[j-1];
             arr[j-1]=arr[j];
-            arr[j]=temp[100];
+            arr[j]=ai;
             j--;
         }
     }
