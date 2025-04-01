@@ -17,13 +17,13 @@ int monotonic(int n,int arr[]){
             result=1;
         }
     }
-    for(int i=n;i>0;i--){
+    for(int i=0;i<n;i++){
         bool flag=true;
-        for(int j=n;j>n-i-1;j--){
-            if(arr[j]>arr[j+1]){
-                int temp=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
+        for(int j=0;j>n-i-1;j++){
+            if(arr[j]<arr[j+1]){
+                int temp=arr[j+1];
+                arr[j+1]=arr[j];
+                arr[j]=temp;
                 flag=false;
             }
         }
