@@ -17,8 +17,6 @@ int monotonic(int n,int arr[]){
             result=1;
         }
     }
-
-    int monotonic(int n,int arr[]){
     for(int i=n;i>0;i--){
         bool flag=true;
         for(int j=n;j>n-i-1;j--){
@@ -32,7 +30,6 @@ int monotonic(int n,int arr[]){
         if(flag==true){
             result=2;
         }
-    }
     }
     return result;
 }
