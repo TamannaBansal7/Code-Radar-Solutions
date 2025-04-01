@@ -39,6 +39,7 @@ int monotonic(int n,int arr[]){
 
 int main(){
     int n;
+    int result;
     scanf("%d",&n);
     int arr[100];
     for(int i=0;i<n;i++){
