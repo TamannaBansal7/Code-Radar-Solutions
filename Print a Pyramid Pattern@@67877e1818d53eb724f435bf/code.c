@@ -8,7 +8,7 @@ int main() {
     int N,i,j,space;
     scanf("%d",&N);
     for(i=0;i<N;i++){
-        for(space=0;space<N-i;space++){
+        for(space=0;space<N-i-1;space++){
             printf(" ");
         }
     }
