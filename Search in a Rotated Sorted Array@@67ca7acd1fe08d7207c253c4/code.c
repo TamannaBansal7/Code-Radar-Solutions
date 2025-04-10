@@ -3,7 +3,7 @@ int searchInRotatedArray(int arr[],int n,int target){
     int low=0;
     int high=n-1;
     while(low<=high){
-        low=low+(high-low)/2;
+        int mid=low+(high-low)/2;
         if(arr[mid]==k){
             return mid;
         }
