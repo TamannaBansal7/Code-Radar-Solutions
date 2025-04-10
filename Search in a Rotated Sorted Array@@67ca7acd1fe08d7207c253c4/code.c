@@ -1,6 +1,5 @@
 // Your code here...
-int searchInRotatedArray(int arr[100],int target){
-    int n;
+int searchInRotatedArray(int arr[],int n,int target){
     for(int i=0;i<n;i++){
         if(target==i){
             return arr[i];
