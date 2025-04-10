@@ -6,5 +6,5 @@ char* compressString(char str[100],char compressed){
     for(int i=0;i<strlen(str);i++){
         count++;
     }
-    return str[0]+count;
+    
 }
